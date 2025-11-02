@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
         - name: todo-app
-          image: 325583868777.dkr.ecr.eu-central-1.amazonaws.com/gjglc-hlm-ci-todo:latest
+          image: 325583868777.dkr.ecr.eu-central-1.amazonaws.com/gjglc-hlm-todo:latest
+
           ports:
             - containerPort: 3000
