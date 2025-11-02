@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: todo-app
-          image: <ECR_REPOSITORY_URI>:latest
+          image: 325583868777.dkr.ecr.us-east-2.amazonaws.com/todo-list-app:latest
           ports:
             - containerPort: 3000
